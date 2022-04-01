@@ -122,9 +122,7 @@ Citizen.CreateThread(function()
 			end
 
 		else 
-			if not IsControlEnabled(0, cfg.key) then
-				EnableControlAction(0, cfg.key, true)
-			end
+			EnableControlAction(0, cfg.key, true)
 		end
 
 		Citizen.Wait(3)
